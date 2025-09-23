@@ -562,7 +562,7 @@ background: #1a1717 !important;
 .dataTables_wrapper .dataTables_info {
   color: white !important;
 }
-
+/*
 /* POPUP VIDEO CSS */
 .video-popup {
   height: 100vh;
@@ -576,18 +576,6 @@ background: #1a1717 !important;
   display: none;
 }
 
-/*
-.video-popup {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.9);
-  position: absolute;
-  z-index: 9999;
-  display: none;
-}
-*/
 .video-popup.show {
   display: flex;
 }
@@ -721,6 +709,7 @@ background: #1a1717 !important;
     width: 100%;
   }
 }
+*/
 
 /* SLIDE ABOUT US */
 
