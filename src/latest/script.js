@@ -31,6 +31,7 @@ menuIcon.click(function () {
   }
 });
 
+/*
 //YMUSIC PLAYLIST JS
 (function () {
   var tag = document.createElement("script");
@@ -223,7 +224,7 @@ var $ul = $("#ytpl-thumbs");
     );
   };
 })();
-
+*/
 
 //SOCIAL PANEL JS
 const floating_btn = document.querySelector(".floating-btn");
@@ -240,6 +241,7 @@ close_btn.addEventListener("click", () => {
   social_panel_container.classList.remove("visible");
 });
 
+/*
 //TVJSON JS
 window.addEventListener("load", function () {
   var cukuRukuk = "//donelfantastic.github.io/webiptv/api/static/web/v1/manifest.json";
@@ -280,12 +282,6 @@ window.addEventListener("load", function () {
           f !== "Iran"
         ) {
           b++;
-
-//          function generateRandomToken(length = 16) {
-//  return Array.from(crypto.getRandomValues(new Uint8Array(length)), b => b.toString(16).padStart(2, '0')).join('');
-// }
-// const Gtoken = generateRandomToken();
-// console.log(url);
           
           var i18n = "https://donelfantastic.github.io/webiptv/embed/v4/?live&url=";
           var i18k = "https://donelfantastic.github.io/webiptv/embed/v5/?live&url=";
@@ -312,17 +308,10 @@ window.addEventListener("load", function () {
         });
       });
       
- /*    
-      var n =
-        "<br><span style='color:#000;'>Total Found: <strong style='color:#ff0000;'>" +
-        b +
-        "</strong> channels.</span><br/><span style='color:#000;'>You can search by channel name, category, country or language! </span>";
-      o.html(n);
- */
       p.html(output);
       $("table").addClass("table");
       $("#myTable").DataTable();
     }
   });
 });
-
+*/
