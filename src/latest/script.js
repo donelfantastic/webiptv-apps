@@ -242,7 +242,7 @@ close_btn.addEventListener("click", () => {
 
 //TVJSON JS
 window.addEventListener("load", function () {
-  var cukuRukuk = "//donelfantastic.github.io/webiptv/api/static/web/v2/db-02.json";
+  var cukuRukuk = "//donelfantastic.github.io/webiptv/api/static/web/v1/manifest.json";
   var o = $("#display-number");
   var p = $("#display-resources");
   p.html(
@@ -256,7 +256,7 @@ window.addEventListener("load", function () {
       var b = 0;
       var output = "";
       output +=
-        "<br><table id='myTable' class='display' style='background:#001f61;font-size:12px;'><thead><tr><th class='th-sm'>LOGO CHANNEL</th><th class='th-sm'>NAME CHANNEL</th><th class='th-sm' style='display:none;'>Category</th><th class='th-sm'>LIVE CHANNEL</th></thead><tbody>";
+        "<br><table id='myTable' class='display' style='background:#001f61;font-size:12px;'><thead><tr><th class='th-sm'>LOGO</th><th class='th-sm'>CHANNEL</th><th class='th-sm' style='display:none;'>Category</th><th class='th-sm'>LIVE</th></thead><tbody>";
       var i, j, k, l;
       for (i in a) {
         for (j in a[i].categories) {
@@ -281,11 +281,18 @@ window.addEventListener("load", function () {
         ) {
           b++;
 
-          var DoryHarsa = "./mn/embed/cloppr/?live&url=";
-          //var NellaKharisma = "./mn/embed/cloppr/?live&url=";
-          var deviceId = "deviceId=YzM0NDA0MTItMGYyMC0zNGQ0LTliMjMtNDY4MjE1ZjA5NmZj";   
-          //output += "<tr><td><center><img width='64' src='" + a[i].logo + "'/></center></td><td>" + a[i].name + "</td><td style='display:none;'>" + d + "</td><td><center><a class='open-video' style='text-decoration:none;' href='" + Dory + a[i].url + "?" + deviceId + "'><img src='//donelfantastic.github.io/assets/watchnow3.png' style='width:48px;height:auto;'/></a></center></td></tr>";
-          output += "<tr><td><center><img width='64' src='" + a[i].logo + "'/></center></td><td>" + a[i].name + "</td><td style='display:none;'>" + d + "</td><td><center><button class='btn'><a class='open-video' style='text-decoration:none;' href='" + DoryHarsa + a[i].url + "?" + deviceId + "'>WATCH NOW</a></button></center></td></tr>";
+//          function generateRandomToken(length = 16) {
+//  return Array.from(crypto.getRandomValues(new Uint8Array(length)), b => b.toString(16).padStart(2, '0')).join('');
+// }
+// const Gtoken = generateRandomToken();
+// console.log(url);
+          
+          var i18n = "https://donelfantastic.github.io/webiptv/embed/v4/?live&url=";
+          var i18k = "https://donelfantastic.github.io/webiptv/embed/v5/?live&url=";
+          //var deviceId = "deviceId=YzM0NDA0MTItMGYyMC0zNGQ0LTliMjMtNDY4MjE1ZjA5NmZj";   
+          //output += "<tr><td><center><img width='64' src='" + a[i].logo + "'/></center></td><td>" + a[i].name + "</td><td style='display:none;'>" + d + "</td><td><center><button class='btn'><a class='open-video' style='text-decoration:none;' href='" + i18n + a[i].url + "'>WATCH NOW</a></button></center></td></tr>";
+          output += "<tr><td><center><img width='64' src='" + a[i].logo + "'/></center></td><td>" + a[i].name + "</td><td style='display:none;'>" + d + "</td><td><center><button class='btn'><a class='open-video' style='text-decoration:none;' href='" + i18n + a[i].url + "'>WATCH NOW</a></button><span><button class='btn'><a class='open-video' style='text-decoration:none;' href='" + i18k + a[i].url + "'>WATCH NOW</a></button></span></center></td></tr>";
+          
         }
       }
       output += "</tbody></table>";
@@ -305,16 +312,17 @@ window.addEventListener("load", function () {
         });
       });
       
- /*     
+ /*    
       var n =
         "<br><span style='color:#000;'>Total Found: <strong style='color:#ff0000;'>" +
         b +
         "</strong> channels.</span><br/><span style='color:#000;'>You can search by channel name, category, country or language! </span>";
       o.html(n);
-*/
+ */
       p.html(output);
       $("table").addClass("table");
       $("#myTable").DataTable();
     }
   });
 });
+
