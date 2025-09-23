@@ -17,9 +17,11 @@
   <meta name="robots" content="noindex">
   <meta name="author" content="Donelfantastic">
   <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/video.js@8.19.1/dist/video-js.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/donelfantastic/donelfantastic.github.io@refs/heads/main/src/library/normalize.min.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="//cdn.jsdelivr.net/gh/donelfantastic/donelfantastic.github.io@refs/heads/main/src/library/jquery.dataTables.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/donelfantastic/donelfantastic.github.io@refs/heads/main/src/library/jquery.dataTables.min.css" type="text/css" media="all" />
   <link rel="stylesheet" href="./src/latest/style.css"/>
   <script type="text/javascript"> $ = jQuery.noConflict();</script>
 </head>
@@ -78,6 +80,23 @@
   <div class="container-fluid"></div>
     <h5 class="df_title">WEBIPTV<span>PLAYER</span></h5>
     <section class="content-area">
+      <div class="container">
+    <h1 class="mt-3 text-center">IPTV PLAYER v2</h1>
+    <div class="mb-3"><label for="m3uLink" class="form-label"></label>
+      
+      <div class="input-group"><input type="text" class="form-control" id="m3uLink" placeholder="https://iptv-org.github.io/iptv/index.m3u"><button id="loadButton" class="btn btn-primary">LOAD</button></div><input type="file" id="uploadFile" accept=".m3u,.m3u8,.txt" class="form-control mt-3">
+      
+      <div class="mt-3"><select id="categorySelect" class="form-select"></select></div>
+     
+      <div class="mt-3"><select id="channelSelect" class="form-select"></select></div>
+      
+      <div class="mt-3"><img id="channelLogo" src="//static.wixstatic.com/media/decb9b_408149b290cf44229f7c308a82161597~mv2.png" alt="Logo" class="img-thumbnail mx-auto d-block" style="background-color: transparent; max-width: 100px; max-height: 50px; display: none; border: none;"></div>
+      
+      <div class="video-section video-responsive">
+    <video id="player" class="video-js" autoplay muted controls playsinline crossorigin>
+    </video>
+  </div>
+    </div>
       <!--//
       <div id="wrapper">
 <a href="./donel-entertainment"><button class="animated-button"><i class="fas fa-tv"></i>ENTERTAINMENT</button></a><span>
@@ -141,6 +160,11 @@
 
 <script src="//cdn.jsdelivr.net/gh/donelfantastic/donelfantastic.github.io@refs/heads/main/src/library/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/gh/donelfantastic/donelfantastic.github.io@refs/heads/main/src/library/jquery.dataTables.min.js"></script>
-<script  src="./src/latest/script.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/video.js@8.19.1/dist/video.min.js"></script>
+<script type="text/javascript" src="./lib/js/mpegts.min.js"></script>
+<script type="text/javascript" src="./lib/js/videojs-mpegts.js"></script>
+<script disable-devtool-auto src="//cdn.jsdelivr.net/npm/disable-devtool"></script>  
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+<script src="./src/latest/script.js"></script>
  </body>
 </html>
