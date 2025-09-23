@@ -795,7 +795,7 @@ background: #1a1717 !important;
 #slide5 { background: url("https://donelfantastic.github.io/assets/donelfantastic8.jpg")no-repeat center center/cover; }
 
 /* MENUTVBUTTON */
-
+/*
 #wrapper {
   display: inline-block;
   text-align: center;
@@ -842,3 +842,4 @@ background: #1a1717 !important;
 .animated-button:hover i {
   transform: rotate(360deg);
 }
+*/
