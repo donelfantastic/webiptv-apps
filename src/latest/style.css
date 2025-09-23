@@ -437,21 +437,6 @@ video {
   }
 }
 
-/* YMUSIC PLAYLIST CSS */
-.container-playlist {
-  margin: 0;
-  padding: 0;
-  }
-
-.container-fluid {
-  margin: 0;
-  padding: 0;
-}
-#form-div2 {
-background-color:transparent;
-padding: 0px;
-margin: 0px;
-}
 
 h5 {
   color: white;
@@ -488,74 +473,6 @@ h5 {
   cursor: none;  
   }
 
-p {
-  font-family: "Muli";
-  font-size: 12px;
-  color: white;
-  margin-left: 15px;
-  letter-spacing: 1px;
-  cursor: none;  
-  }
-
-span {
-  color: rgb(243, 8, 118);
-}
-
-@media (min-width: 992px) {
-  .container-playlist {
-    width: 100%;
-    padding-left: 8%;
-  }
-}
-
-@media (min-width: 769px) {
-  .container {
-    width: 100%;
-  }
-}
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-.embed-container iframe {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.ytpl--thumbs li {
-  list-style: none;
-  position: relative;
-  float: left;
-  width: 200px;
-}
-.ytpl--thumbs img {
-  max-width: 100%;
-}
-.ytpl--thumbs p {
-  display: none;
-  position: absolute;
-  margin: 0;
-}
-.ytpl--thumbs button:hover p {
-  display: block;
-  cursor: pointer;
-}
-
-.ytpl-playing p {
-  display: block;
-}
-
-.ytpl-playing2 p {
-  display: block;
-}
-
 /* TABLE */
 table-area {
 position: relative;
@@ -579,115 +496,7 @@ background: #1a1717 !important;
 .dataTables_wrapper .dataTables_info {
   color: white !important;
 }
-
-/* POPUP VIDEO CSS */
-.video-popup {
-  height: 100vh;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1202;
-  transition: 0.2s all ease-in-out;
-  display: none;
-}
-
-.video-popup.show {
-  display: flex;
-}
-
-/*responsive iframe set*/
-.vid-player {
-  padding: 0;
-  margin: 0;
-  display: block;
-  position: relative;
-  margin-bottom: 1em;
-  overflow: hidden;
-}
-
-.responsive-vid {
-  padding-bottom: 56.25%;
-}
-
-#iframeHolder {
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  /*top: 0;*/
-  /*left: 0;*/
-  /*bottom: 0;*/
-  height: 100%;
-  width: 100%;
-  border: 0;
-}
-
-.iframe-wrapper {
-  /*padding: 0;*/
-  /*margin: auto;*/
-  width: 100%;
-  height: 100%;
-  position: relative;
-  top: 75px;
-  transform: translate(-50%, -50%);
-}
-
-.open-video {
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
-}
-
-.close-video {
-  width: 40px;
-  height: 40px;
-  background: #fff;
-  display: block;
-  border-radius: 100%;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  cursor: pointer;
-  z-index: 9999;
-  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
-}
-
-.video-close-icon {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: block;
-  cursor: none;
-}
-
-.video-close-icon::before {
-  width: 60%;
-  height: 2px;
-  background: #000;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  transform: rotate(45deg);
-}
-
-.video-close-icon::after {
-  width: 60%;
-  height: 2px;
-  background: #000;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  transform: rotate(-45deg);
-}
-
+/*
 .btn {
   font-family: "Oswald", sans-serif;
   color: #fff;
@@ -722,7 +531,7 @@ background: #1a1717 !important;
   background-color: gray;
   color: #fff;
 }
-
+*/
 @media all and (max-width: 768px) {
   .iframe-wrapper {
     width: 100%;
@@ -795,7 +604,6 @@ background: #1a1717 !important;
 #slide5 { background: url("https://donelfantastic.github.io/assets/donelfantastic8.jpg")no-repeat center center/cover; }
 
 /* MENUTVBUTTON */
-/*
 #wrapper {
   display: inline-block;
   text-align: center;
@@ -842,4 +650,4 @@ background: #1a1717 !important;
 .animated-button:hover i {
   transform: rotate(360deg);
 }
-*/
+
