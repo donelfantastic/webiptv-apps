@@ -7,6 +7,33 @@ body {
   color: rgb(243, 239, 239);
 }
 
+.video-section {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  position: relative;
+  margin-bottom: 0em;
+  overflow: hidden;
+}
+
+.video-responsive {
+  padding-bottom: 56.25%;
+}
+
+#player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100% !important;
+  width: 100% !important;
+  border: 0;
+}
+
+.video-js .vjs-loading-spinner {
+  border-color: rgba(107, 0, 255, 0.79);
+}
+
 /*YT Video BG*/
 .video-container {
   height: 100vh;
@@ -494,50 +521,6 @@ span {
   }
 }
 
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top:150px;
-  overflow: hidden;
-  max-width: 100%;
-}
-.embed-container iframe {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.ytpl--thumbs li {
-  list-style: none;
-  position: relative;
-  float: left;
-  width: 200px;
-}
-.ytpl--thumbs img {
-  max-width: 100%;
-}
-.ytpl--thumbs p {
-  display: none;
-  position: absolute;
-  margin: 0;
-}
-.ytpl--thumbs button:hover p {
-  display: block;
-  cursor: pointer;
-}
-
-.ytpl-playing p {
-  display: block;
-}
-
-.ytpl-playing2 p {
-  display: block;
-}
 
 /* TABLE */
 table-area {
@@ -562,154 +545,6 @@ background: #1a1717 !important;
 .dataTables_wrapper .dataTables_info {
   color: white !important;
 }
-/*
-/* POPUP VIDEO CSS */
-.video-popup {
-  height: 100vh;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1202;
-  transition: 0.2s all ease-in-out;
-  display: none;
-}
-
-.video-popup.show {
-  display: flex;
-}
-
-/*responsive iframe set*/
-.vid-player {
-  padding: 0;
-  margin: 0;
-  display: block;
-  position: relative;
-  margin-bottom: 1em;
-  overflow: hidden;
-}
-
-.responsive-vid {
-  padding-bottom: 56.25%;
-}
-
-#iframeHolder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  height: 100%;
-  width: 100%;
-  border: 0;
-}
-
-.iframe-wrapper {
-  padding: 0;
-  width: 100%;
-  height: 100%;
-  position: relative;
-  margin: auto;
-  top: 25%;
-  transform: translate(-50%, -50%);
-}
-
-.open-video {
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
-}
-
-.close-video {
-  width: 40px;
-  height: 40px;
-  background: #fff;
-  display: block;
-  border-radius: 100%;
-  position: fixed;
-  right: 10px;
-  top: 10px;
-  cursor: pointer;
-  z-index: 9999;
-  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
-}
-
-.video-close-icon {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: block;
-  cursor: none;
-}
-
-.video-close-icon::before {
-  width: 60%;
-  height: 2px;
-  background: #000;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  transform: rotate(45deg);
-}
-
-.video-close-icon::after {
-  width: 60%;
-  height: 2px;
-  background: #000;
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  transform: rotate(-45deg);
-}
-
-.btn {
-  font-family: "Oswald", sans-serif;
-  color: #fff;
-  background: #fc4a1a;
-  background: -webkit-linear-gradient(
-    to right,
-    #f30876,
-    #fc4a1a
-  );
-  background: linear-gradient(
-    to right,
-    #f30876,
-    #fc4a1a
-  );
-  border: none;
-  padding: 3px 16px;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: 14px;
-  border-radius: 100px;
-  cursor: none;
-  margin: 2px 3px;
-  transition: 0.3s;
-  display: inline-block;
-}
-
-.btn:focus {
-  outline: none;
-}
-
-.btn:hover {
-  background-color: gray;
-  color: #fff;
-}
-
-@media all and (max-width: 768px) {
-  .iframe-wrapper {
-    width: 100%;
-  }
-}
-*/
 
 /* SLIDE ABOUT US */
 
