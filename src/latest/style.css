@@ -7,6 +7,12 @@ body {
   color: rgb(243, 239, 239);
 }
 
+.container {
+  width:100%;
+  margin: 15px;
+  overflow:hidden;
+}
+
 .video-section {
   padding: 0;
   margin: 0;
@@ -521,7 +527,7 @@ span {
   }
 }
 
-
+/*
 /* TABLE */
 table-area {
   position: relative;
@@ -545,6 +551,7 @@ background: #1a1717 !important;
 .dataTables_wrapper .dataTables_info {
   color: white !important;
 }
+*/
 
 /* SLIDE ABOUT US */
 
