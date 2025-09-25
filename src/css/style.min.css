@@ -65,6 +65,18 @@ video {
   min-height: 100%;
 }
 
+.hint {
+  font-family: "Roboto Condensed";
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 22px;
+  font-weight: 700;
+  position: absolute;
+  left: 75px;
+  top: 40px;
+  letter-spacing: 1.2px;
+  cursor: none;
+}
+
 /* NAVIGATION MENU CSS */
 .toggle-nav {
   width: 48px;
@@ -109,18 +121,6 @@ video {
 }
 .toggle-nav--open::after {
   transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.hint {
-  font-family: "Roboto Condensed";
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 22px;
-  font-weight: 700;
-  position: absolute;
-  left: 75px;
-  top: 40px;
-  letter-spacing: 1.2px;
-  cursor: none;
 }
 
 .nav {
