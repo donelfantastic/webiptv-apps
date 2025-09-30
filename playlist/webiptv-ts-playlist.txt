@@ -18,7 +18,7 @@ http://103.176.90.133:80/play/live.php?mac=00:1A:79:B5:46:30&stream=1032529&exte
 http://103.176.90.133:80/play/live.php?mac=00:1A:79:B5:46:30&stream=1032528&extension=ts
 
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_3.png" group-title="SPORTS-SG",HUB PREMIER 3
-http://103.176.90.133:80/play/live.php?mac=00:1A:79:B5:46:30&stream=1032529&extension=ts
+http://103.176.90.133:80/play/live.php?mac=00:1A:79:B5:46:30&stream=1032527&extension=ts
 
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_1.png" group-title="SPORTS-TH",MONOMAX HD
 http://31.220.3.103:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186563&extension=ts
