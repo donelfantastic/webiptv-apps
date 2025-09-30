@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/qoerty1659622111.png" group-title="SPORTS-SG",HUB PREMIER
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/sdvs4u1659622094.png" group-title="SPORTS-SG",HUB PREMIER 2
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier2/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://r2.thesportsdb.com/images/media/channel/logo/znzwou1659622086.png" group-title="SPORTS-SG",HUB PREMIER 3
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier3/index.m3u8
