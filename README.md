@@ -11,7 +11,14 @@ https://iptv-org.github.io/iptv/index.country.m3u
 ```
 https://iptv-org.github.io/iptv/index.category.m3u
 ```
-
+By Country
+```
+https://iptv-org.github.io/iptv/countries/id.m3u
+```
+By Category
+```
+https://iptv-org.github.io/iptv/categories/sports.m3u
+```
 
 The main playlist containing all channels available in the repository can be found at:
 
