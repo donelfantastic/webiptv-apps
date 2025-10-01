@@ -4,6 +4,14 @@ Create your own simple free webiptv player!
 For more free playlist visit, 
 
 ## Playlists
+// Examples playlist
+```
+https://iptv-org.github.io/iptv/index.country.m3u
+```
+```
+https://iptv-org.github.io/iptv/index.category.m3u
+```
+
 
 The main playlist containing all channels available in the repository can be found at:
 
