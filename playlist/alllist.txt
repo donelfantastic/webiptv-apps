@@ -1,0 +1,25 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-1.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS
+https://donelfantastic.github.io/webiptv-apps/playlist/my/astro/supersports/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-2.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS 2
+https://donelfantastic.github.io/webiptv-apps/playlist/my/astro/supersports2/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-3.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS 3
+https://donelfantastic.github.io/webiptv-apps/playlist/my/astro/supersports3/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-4.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS 4
+https://donelfantastic.github.io/webiptv-apps/playlist/my/astro/supersports4/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_1.png" group-title="SPORTS-SG",HUB PREMIER
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_2.png" group-title="SPORTS-SG",HUB PREMIER 2
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier2/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_3.png" group-title="SPORTS-SG",HUB PREMIER 3
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier3/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_1.png" group-title="SPORTS-TH",MONOMAX HD
+https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_2.png" group-title="SPORTS-TH",MONOMAX 2 HD
+https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax2/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Play_Sports_1.png" group-title="SPORTS-BE",PLAY SPORTS
+https://donelfantastic.github.io/webiptv-apps/playlist/be/play/sports/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Play_Sports_2.png" group-title="SPORTS-BE",PLAY SPORTS 2
+https://donelfantastic.github.io/webiptv-apps/playlist/be/play/sports2/index.m3u8
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Play_Sports_3.png" group-title="SPORTS-BE",PLAY SPORTS 3
+https://donelfantastic.github.io/webiptv-apps/playlist/be/play/sports3/index.m3u8
