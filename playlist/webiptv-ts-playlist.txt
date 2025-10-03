@@ -1,27 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="astroSS.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-1.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS
-http://31.220.3.103:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186387&extension=ts
-
-#EXTINF:-1 tvg-id="astroSS2.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-2.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS 2
-http://31.220.3.103:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186388&extension=ts
-
-#EXTINF:-1 tvg-id="astroSS3.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-3.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS 3
-http://31.220.3.103:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186389&extension=ts
-
-#EXTINF:-1 tvg-id="astroSS4.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-4.png" group-title="SPORTS-MY",ASTRO SUPERSPORTS 4
-http://31.220.3.103:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186390&extension=ts
-
-#EXTINF:-1 tvg-id="hubS.sg" tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_1.png" group-title="SPORTS-SG",HUB PREMIER
-http://103.176.90.133:80/play/live.php?mac=00:1A:79:B5:46:30&stream=1032529&extension=ts
-
-#EXTINF:-1 tvg-id="hubS2.sg" tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_2.png" group-title="SPORTS-SG",HUB PREMIER 2
-http://103.176.90.133:80/play/live.php?mac=00:1A:79:B5:46:30&stream=1032528&extension=ts
-
-#EXTINF:-1 tvg-id="hubS3.sg" tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_3.png" group-title="SPORTS-SG",HUB PREMIER 3
-http://103.176.90.133:80/play/live.php?mac=00:1A:79:B5:46:30&stream=1032527&extension=ts
-
-#EXTINF:-1 tvg-id="monoMax.th" tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_1.png" group-title="SPORTS-TH",MONOMAX HD
-http://31.220.3.103:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186563&extension=ts
-
-#EXTINF:-1 tvg-id="monoMax2.th" tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_2.png" group-title="SPORTS-TH",MONOMAX 2 HD
-http://31.220.3.103:2095/play/live.php?mac=00:1A:79:E7:32:0C&stream=186562&extension=ts
+#EXTINF:-1 tvg-id="astroSS.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-1.png" group-title="SPORTS",ASTRO SUPERSPORTS
+#
+#EXTINF:-1 tvg-id="astroSS2.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-2.png" group-title="SPORTS",ASTRO SUPERSPORTS 2
+#
+#EXTINF:-1 tvg-id="astroSS3.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-3.png" group-title="SPORTS",ASTRO SUPERSPORTS 3
+#
+#EXTINF:-1 tvg-id="astroSS4.my" tvg-logo="https://donelfantastic.github.io/webiptv/images/astro-supersports-4.png" group-title="SPORTS",ASTRO SUPERSPORTS 4
+#
+#EXTINF:-1 tvg-id="hubS.sg" tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_1.png" group-title="SPORTS",HUB PREMIER
+#
+#EXTINF:-1 tvg-id="hubS2.sg" tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_2.png" group-title="SPORTS",HUB PREMIER 2
+#
+#EXTINF:-1 tvg-id="hubS3.sg" tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_3.png" group-title="SPORTS",HUB PREMIER 3
+#
+#EXTINF:-1 tvg-id="monoMax.th" tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_1.png" group-title="SPORTS",MONOMAX HD
+#
+#EXTINF:-1 tvg-id="monoMax2.th" tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_2.png" group-title="SPORTS",MONOMAX 2 HD
+#
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Play_Sports_1.png" group-title="SPORTS",PLAY SPORTS
+#
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Play_Sports_2.png" group-title="SPORTS",PLAY SPORTS 2
+#
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Play_Sports_3.png" group-title="SPORTS",PLAY SPORTS 3
+#
