@@ -197,11 +197,15 @@ document.addEventListener("DOMContentLoaded", () => {
         type: "application/x-mpegURL",
         src: sURL
       });
+    // Add the quality menu button 
+    videojsPlayer.qualityMenu();
     } else if (url.indexOf(".mpd") > 0) {
       videojsPlayer.src({
         type: "application/dash+xml",
         src: sURL
       });
+    // Add the quality menu button 
+    videojsPlayer.qualityMenu();
     } else {
       videojsPlayer.src({
         src: sURL
