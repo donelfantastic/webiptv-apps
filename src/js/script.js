@@ -168,9 +168,9 @@ document.addEventListener("DOMContentLoaded", () => {
       playsinline: true,
       preload: "auto"
     });
-
-    let hideMe = atob("aHR0cHM6Ly9jb3JzLXByb3h5LmNvb2tzLmZ5aQ==");
-    function getSecureUrl(url, corsProxy = hideMe) {
+    // Used corsproxy if url index of http protocol
+    let secureMe = atob("aHR0cHM6Ly9jb3JzLXByb3h5LmNvb2tzLmZ5aQ==");
+    function getSecureUrl(url, corsProxy = secureMe) {
       try {
         const parsed = new URL(url);
         if (parsed.protocol === "https:") {
