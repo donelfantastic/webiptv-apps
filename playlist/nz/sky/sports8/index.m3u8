@@ -1,0 +1,6 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXTINF:10.0,
+http://mains.services/live/bshorty/Zv5le07a0J/7e851290-f8c3-4259-8ace-e45b71ed26ab.ts
+#EXT-X-ENDLIST
