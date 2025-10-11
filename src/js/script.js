@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }, 550);
     }
   });
-
   const categorySelect = document.getElementById("categorySelect");
   const channelSelect = document.getElementById("channelSelect");
   const channelLogo = document.getElementById("channelLogo");
@@ -39,15 +38,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const loadButton = document.getElementById("loadButton");
   const uploadFile = document.getElementById("uploadFile");
   const videoSection = document.getElementById("videoSection");
-
   let channels = [];
   let videojsPlayer = null;
-
   function loadChannels(data) {
     const lines = data.split("\n");
     let currentChannel = {};
     let currentCategory = "";
-
     lines.forEach((line) => {
       if (line.startsWith("#EXTGRP:")) {
         currentCategory = line.split(":")[1];
@@ -66,7 +62,6 @@ document.addEventListener("DOMContentLoaded", () => {
         currentChannel = {};
       }
     });
-
     const categories = [
       ...new Set(channels.map((channel) => channel.category))
     ];
@@ -76,7 +71,6 @@ document.addEventListener("DOMContentLoaded", () => {
       option.value = category;
       categorySelect.appendChild(option);
     });
-
     function populateChannelSelect(filteredChannels) {
       channelSelect.innerHTML = "";
       filteredChannels.forEach((channel) => {
@@ -86,7 +80,6 @@ document.addEventListener("DOMContentLoaded", () => {
         channelSelect.appendChild(option);
       });
     }
-
     function playFirstChannelInCategory(category) {
       const filteredChannels = channels.filter(
         (channel) => channel.category === category
@@ -95,7 +88,6 @@ document.addEventListener("DOMContentLoaded", () => {
         playStream(filteredChannels[0].url, filteredChannels[0].logo);
       }
     }
-
     categorySelect.addEventListener("change", () => {
       const selectedCategory = categorySelect.value;
       populateChannelSelect([]);
@@ -105,7 +97,6 @@ document.addEventListener("DOMContentLoaded", () => {
       populateChannelSelect(filteredChannels);
       playFirstChannelInCategory(selectedCategory);
     });
-
     populateChannelSelect([]);
     if (categories.length > 0) {
       const firstCategory = categories[0];
@@ -115,7 +106,6 @@ document.addEventListener("DOMContentLoaded", () => {
       populateChannelSelect(filteredChannels);
       playFirstChannelInCategory(firstCategory);
     }
-
     channelSelect.addEventListener("change", () => {
       const selectedChannelUrl = channelSelect.value;
       const selectedChannel = channels.find(
@@ -124,7 +114,6 @@ document.addEventListener("DOMContentLoaded", () => {
       playStream(selectedChannelUrl, selectedChannel.logo);
     });
   }
-
   function recreateVideoTagIfNeeded() {
     // If #player doesn't exist, create and append it
     if (!document.getElementById("player")) {
@@ -139,7 +128,6 @@ document.addEventListener("DOMContentLoaded", () => {
       videoSection.appendChild(videoTag);
     }
   }
-
   function playStream(url, logo) {
     if (logo) {
       channelLogo.style.display = "inline";
@@ -147,19 +135,15 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       channelLogo.style.display = "none";
     }
-
     // Dispose previous player (and remove video element)
     if (videojsPlayer) {
       videojsPlayer.dispose();
       videojsPlayer = null;
     }
-
     // Re-create the video element if needed
     recreateVideoTagIfNeeded();
-
     // Always use the latest video element
     const playerElement = document.getElementById("player");
-
     // Create new Video.js player instance
     videojsPlayer = videojs(playerElement, {
       autoplay: true,
@@ -185,7 +169,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
     const sURL = getSecureUrl(url);
-
     // Set video source based on extension
     if (url.indexOf(".ts") > 0) {
       videojsPlayer.src({
@@ -211,11 +194,9 @@ document.addEventListener("DOMContentLoaded", () => {
         src: sURL
       });
     }
-
     videojsPlayer.load();
     videojsPlayer.play();
   }
-
   loadButton.addEventListener("click", () => {
     const m3uUrl = m3uLinkInput.value;
     if (m3uUrl) {
@@ -234,7 +215,6 @@ document.addEventListener("DOMContentLoaded", () => {
       console.log("Please enter an M3U link.");
     }
   });
-
   uploadFile.addEventListener("change", (event) => {
     const file = event.target.files[0];
     if (file) {
@@ -249,9 +229,9 @@ document.addEventListener("DOMContentLoaded", () => {
       reader.readAsText(file);
     }
   });
-
   window.onload = () => {
-    const placeholderM3ULink = m3uLinkInput.placeholder;
+ // const placeholderM3ULink = m3uLinkInput.placeholder;
+    const placeholderM3ULink = atob("aHR0cHM6Ly93b3JsZC1wcm94aWZpZXIueHl6L2RhZGR5bGl2ZS9wbGF5bGlzdC5tM3U4");
     if (placeholderM3ULink) {
       channels = [];
       categorySelect.innerHTML = "";
