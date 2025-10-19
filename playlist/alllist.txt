@@ -9,10 +9,13 @@ https://donelfantastic.github.io/webiptv-apps/playlist/my/astro/supersports3/ind
 https://donelfantastic.github.io/webiptv-apps/playlist/my/astro/supersports4/index.m3u8
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_1.png" group-title="SPORTS-SG",HUB PREMIER
 https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier/index.m3u8
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_2.png" group-title="SPORTS-SG",HUB PREMIER 2
 https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier2/index.m3u8
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier2/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/hub_premier_3.png" group-title="SPORTS-SG",HUB PREMIER 3
 https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier3/index.m3u8
+https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier3/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_1.png" group-title="SPORTS-TH",MONOMAX HD
 https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax/index.m3u8
 https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax/playlist.m3u8
