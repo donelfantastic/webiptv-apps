@@ -15,6 +15,7 @@ https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier2/index.m3u
 https://donelfantastic.github.io/webiptv-apps/playlist/sg/hub/premier3/index.m3u8
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_1.png" group-title="SPORTS-TH",MONOMAX HD
 https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax/index.m3u8
+https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_2.png" group-title="SPORTS-TH",MONOMAX 2 HD
 https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax2/index.m3u8
 #EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Play_Sports_1.png" group-title="SPORTS-BE",PLAY SPORTS
