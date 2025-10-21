@@ -1,5 +1,0 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=4000000,CODECS="avc1.64001f,mp4a.40.2",AUDIO="audio"
-https://muridnakal.neocities.org/v1/index.txt
-#EXT-X-ENDLIST
