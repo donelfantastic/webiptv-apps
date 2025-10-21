@@ -47,6 +47,6 @@ https://donelfantastic.github.io/webiptv-apps/playlist/be/play/sports2/playlist.
 https://donelfantastic.github.io/webiptv-apps/playlist/be/play/sports3/index.m3u8
 https://donelfantastic.github.io/webiptv-apps/playlist/be/play/sports3/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="Sky_Sport_Premier_League_Channel_Logo.png" group-title="SPORTS-NZ",SKY SPORTS PREMIER LEAGUE
+#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/Sky_Sport_Premier_League_Channel_Logo.png" group-title="SPORTS-NZ",SKY SPORTS PREMIER LEAGUE
 https://donelfantastic.github.io/webiptv-apps/playlist/nz/sky/sports8/index.m3u8
 https://donelfantastic.github.io/webiptv-apps/playlist/nz/sky/sports8/playlist.m3u8
