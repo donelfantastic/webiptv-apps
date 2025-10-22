@@ -1,6 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_1.png" group-title="SPORTS-TH",MONOMAX HD
-https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://donelfantastic.github.io/webiptv/images/mono_max_2.png" group-title="SPORTS-TH",MONOMAX 2 HD
-https://donelfantastic.github.io/webiptv-apps/playlist/th/monomax2/index.m3u8
