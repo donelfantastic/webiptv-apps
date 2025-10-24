@@ -146,8 +146,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const playerElement = document.getElementById("player");
     // Create new Video.js player instance
     videojsPlayer = videojs(playerElement, {
+      html5: {
+        vhs: {
+          overrideNative: true
+            },
+          nativeAudioTracks: false,
+          nativeVideoTracks: false
+       },
       autoplay: true,
       controls: true,
+      liveui: true,
       muted: true,
       playsinline: true,
       preload: "auto"
@@ -189,7 +197,6 @@ document.addEventListener("DOMContentLoaded", () => {
         src: sURL
       });
     // Add the quality menu button 
-    videojsPlayer.qualityMenu();
     } else if (url.indexOf(".mp4") > 0) {
       videojsPlayer.src({
         type: "video/mp4",
