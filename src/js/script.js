@@ -190,6 +190,13 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     // Add the quality menu button 
     videojsPlayer.qualityMenu();
+    } else if (url.indexOf(".mp4") > 0) {
+      videojsPlayer.src({
+        type: "video/mp4",
+        src: sURL
+      });  
+    // Add the quality menu button 
+    videojsPlayer.qualityMenu();
     } else {
       videojsPlayer.src({
         src: sURL
