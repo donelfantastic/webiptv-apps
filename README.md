@@ -1,4 +1,4 @@
-# webiptv-apps
+# webiptv-v2
 Create your own simple free webiptv player! 
 
 For more free playlist visit, 
