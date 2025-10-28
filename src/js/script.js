@@ -177,8 +177,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return url;
       }
     }
-    let nowHttps = getSecureUrl(url);
-    const sURL = encodeURIComponent(nowHttps);
+    const sURL = getSecureUrl(url);
     // Set video source based on extension
     if (url.indexOf(".ts") > 0) {
       videojsPlayer.src({
